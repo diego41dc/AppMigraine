@@ -1,0 +1,22 @@
+<Alloy>
+	<Window id="registrar" class="container">
+		<Label id="label" top="0" font="{fontSize:60;}" >Crear paciente</Label>
+		<Label id="label" top="65" left="40" font="{fontSize:60;}">Identificación: *</Label>
+		<TextField id="identificacion" top="50" right="40" width="150"  borderStyle="Titanium.UI.INPUT_BORDERSTYLE_BEZEL" borderColor="black"  />
+		<Label id="label" top="115" left="40" font="{fontSize:80;}">Primer Nombre: *</Label>
+		<TextField id="primerNombre"  top="100" right="40" width="150" borderStyle="Titanium.UI.INPUT_BORDERSTYLE_BEZEL" borderColor="black"/>
+		<Label id="label" top="165" left="40" font="{fontSize:80;}">Segundo Nombre:</Label>
+		<TextField id="segundoNombre"  top="150" right="40" width="150" borderStyle="Titanium.UI.INPUT_BORDERSTYLE_BEZEL"  borderColor="black"/>
+		<Label id="label" top="215"  left="40" font="{fontSize:80;}">Primer Apellido: *</Label>
+		<TextField id="primerApellido"  top="200" right="40" width="150" borderStyle="Titanium.UI.INPUT_BORDERSTYLE_BEZEL"  borderColor="black"/>
+		<Label id="label" top="265" left="40" font="{fontSize:80;}">Segundo Apellido:</Label>
+		<TextField id="segundoApellido"  top="250" right="40" width="150" borderStyle="Titanium.UI.INPUT_BORDERSTYLE_BEZEL" borderColor="black"/>
+		<Label id="label" top="315" left="40" font="{fontSize:80;}">Email: *</Label>
+		<TextField id="correoElectronico"  top="300" right="40" width="150" borderStyle="Titanium.UI.INPUT_BORDERSTYLE_BEZEL" borderColor="black"/>
+		<Label id="label" top="365" left="40" font="{fontSize:80;}">Usuario: *</Label>
+		<TextField id="usuario"  top="350" right="40" width="150" borderStyle="Titanium.UI.INPUT_BORDERSTYLE_BEZEL" borderColor="black"/>
+		<Label id="label" top="415" left="40" font="{fontSize:80;}">Password: *</Label>   
+		<TextField id="password" passwordMask="true" top="400" right="40" width="150" borderStyle="Titanium.UI.INPUT_BORDERSTYLE_BEZEL" borderColor="black"/>
+		<Button id="button" top="470" onClick="doClickRegistrar" title="Crear"/>
+	</Window>
+</Alloy>

@@ -1,0 +1,14 @@
+<Alloy>
+	<Window id="crearEpisodio" class="container">
+		<Label id="label" top="0" font="{fontSize:60;}" >Crear episodio</Label>
+		<Label id="label" top="65" left="40" font="{fontSize:60;}">Medicamentos: *</Label>
+		<TextField id="medicamentos" top="50" right="40" width="150"  borderStyle="Titanium.UI.INPUT_BORDERSTYLE_BEZEL" borderColor="black"  />
+		<Label id="label" top="115" left="40" font="{fontSize:80;}">Nivel Dolor: *</Label>
+		<TextField id="nivelDolor"  top="100" right="40" width="150" borderStyle="Titanium.UI.INPUT_BORDERSTYLE_BEZEL" borderColor="black"/>
+		<Label id="label" top="165" left="40" font="{fontSize:80;}">Patrones Sueño:</Label>
+		<TextField id="patronesSueno"  top="150" right="40" width="150" borderStyle="Titanium.UI.INPUT_BORDERSTYLE_BEZEL"  borderColor="black"/>
+		<Label id="label" top="215"  left="40" font="{fontSize:80;}">Actividades: *</Label>
+		<TextField id="actividades"  top="200" right="40" width="150" borderStyle="Titanium.UI.INPUT_BORDERSTYLE_BEZEL"  borderColor="black"/>
+		<Button id="button" top="470" onClick="doClickCrear" title="Crear"/>
+	</Window>
+</Alloy>

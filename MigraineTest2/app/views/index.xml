@@ -1,0 +1,8 @@
+<Alloy>
+	<Window class="container">
+		<Label id="label" top="0" font="{fontSize:60;}" >Inicio</Label>
+		<Button id="button" top="100" onClick="registrarUsuario" title="Registrarse"/>
+		<Button id="button" top="200" onClick="crearEpisodio" title="Nuevo episodio"/>
+		<TextField id="ip" top="300" width="250" color="black" borderStyle="Titanium.UI.INPUT_BORDERSTYLE_BEZEL" borderColor="black" value="http://192.168.43.87:8080" />
+	</Window>
+</Alloy>
